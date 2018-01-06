@@ -12,7 +12,7 @@ var height = window.innerHeight;
 var workspace = [];
 var gui = [];
 
-var Debug = true;
+var Debug = false;
 
 
 function CalculateVectors(vertices, scale) {
