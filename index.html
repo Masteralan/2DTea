@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #ffffff;
+		}
+
+		@viewport{
+			orientation: landscape;
+		}
+    </style>
+</head>
+<body>
+	<canvas id="viewport" width="1000" height="800">
+		<!-- Stuff images inside of the canvas so they don't sprawl across the webpage. That way you don't have anywhere to scroll.	-->
+		<!-- Not actually needed, just preloads them on the page, will still load to RAM when requested anways. -->
+	</canvas>
+
+
+	<!-- Load independents first -->
+	<script src="Engines/Vectors.js"></script>
+
+	<!-- Load base scripts second -->
+	<script src="Engines/BasicVelocity.js"></script>
+	<script src="Engines/Core.js"></script>
+
+	<!-- Load accessories last -->
+	<script src="Engines/DamageModule.js"></script>
+	<script src="Engines/Particles.js"></script>
+	<script src="Engines/Forcefields.js"></script>
+	<script src="Engines/Humanoids.js"></script>
+	<script src="Engines/Dialogue.js"></script>
+	<script src="Engines/Editor.js"></script>
+  <script src="Engines/Weapons.js"></script>
+  
+	<script src="NPCAnimations.js"></script>
+	<script src="PlayerGUI.js"></script>
+
+	<!-- Start game! -->
+	<script src="Backgrounds.js"></script>
+	<script src="Setup.js"></script>
+<body>
+</html>
