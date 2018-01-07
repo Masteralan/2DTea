@@ -1,15 +1,16 @@
 // Made by Alan O'Cull -- AKA Masteralan or @MasterAlan2001
 // This is mostly just a list of animations for different NPCs and sprites. Makes coding stuff a lot easier though.
 // Implements Sprite Animations; Animation frames have to be manually built-in and defined but the base functions are here.
+// Animation files are single, horizontal strips that can be defined here.
 
 var Animations = {
 	anims: {
 		Andrew: {	//Deer Swordsman
 			Idle: {
 				frames: 39,
-				frameX: 13494/39,
-				frameY: 986,
-				FPS: 15.625
+				frameX: 13494/39,	//File resolution divided by number of frames in the animation.
+				frameY: 986,		//Height of the animation file
+				FPS: 15.625		//Framerate of the animation
 			},
 			Jump: {
 				frames: 20,
@@ -64,9 +65,9 @@ var Animations = {
 	},
 	
 	
-	FindAnimation: function(npc, anim) {
+	FindAnimation: function(npc, anim) {	//Digs for the animation, will log an error if it cannot find one.
 		npc = npc || "Andrew";
-		anim = anim || "Idle";
+		anim = anim || "Idle";	//Animation name
 		
 		var anima = Animations.anims[npc]
 		if (anim == undefined) {
@@ -82,7 +83,7 @@ var Animations = {
 		
 		return anima
 	},
-	GetAnimationSizeRatio: function(sprite, npc, anim) {
+	GetAnimationSizeRatio: function(sprite, npc, anim) {	//Finds the ratio of the sprite size to the animation size--just for keeping stuff together.
 		if (sprite == undefined) {return};
 		var anima = Animations.FindAnimation(npc || sprite.NPCA, anim);
 		if (anima == undefined) {return};
