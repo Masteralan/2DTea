@@ -8,3 +8,4 @@ NOTE: You probably don't want to use this because it's poorly optimized and brok
 I mostly made it for myself when I first started to wane myself off of ROBLOX because I was getting tired of the platform.
 
 Anyways, I don't really have any good documentation on the API since it's made mostly for myself, but you can look around if you like.
+Here is a page that quickly reviews the basics of the engine though: https://github.com/Masteralan/2DTea/wiki/The-Basics
