@@ -1,5 +1,12 @@
-// Made by Alan O'Cull -- Also known as Masteralan or MasterAlan2001
-// Based off of a script written by Max O'Cull -- http://max.codefromjames.com/solace/js/physeng
+/*
+Made by Alan O'Cull -- Also known as Masteralan or @MasterAlan2001 on Twitter
+My website: http://home.codefromjames.com/alan/
+
+This script is based off of a script written by my brother, Max O'Cull -- http://max.codefromjames.com/solace/js/physeng
+
+2D Tea - Basic game engine used for easy development of 2D games in JavaScript.
+Copyright(C) 2018, Alan O'Cull
+*/
 
 var viewport = document.getElementById("viewport");
 var canvas = viewport.getContext("2d");
@@ -12,7 +19,7 @@ var height = window.innerHeight;
 var workspace = [];
 var gui = [];
 
-var Debug = false;
+var Debug = true;
 
 
 function CalculateVectors(vertices, scale) {

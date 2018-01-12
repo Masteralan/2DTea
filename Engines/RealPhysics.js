@@ -1,5 +1,12 @@
-// Made by Alan O'Cull; AKA Masteralan or MasterAlan2001
-// Realistic Physics Engine
+/*
+Made by Alan O'Cull -- Also known as Masteralan or @MasterAlan2001 on Twitter
+My website: http://home.codefromjames.com/alan/
+
+This script is for simulating what hopefully becomes a more realistic physics engine, with mass, momentum, and collision.
+
+2D Tea - Basic game engine used for easy development of 2D games in JavaScript.
+Copyright(C) 2018, Alan O'Cull
+*/
 
 // Value Setup
 

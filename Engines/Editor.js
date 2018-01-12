@@ -1,5 +1,13 @@
-//Made by Alan O'Cull -- AKA MasterAlan or @MasterAlan2001
-//This is an editor mode that allows for easy customization of assets and such. Super handy for, well, pretty much anything.
+/*
+Made by Alan O'Cull -- Also known as Masteralan or @MasterAlan2001 on Twitter
+My website: http://home.codefromjames.com/alan/
+
+This is an editor mode that allows for easy customization of assets and such. Super handy for, well, pretty much anything.
+
+2D Tea - Basic game engine used for easy development of 2D games in JavaScript.
+Copyright(C) 2018, Alan O'Cull
+*/
+
 
 var EditorMode = false;
 

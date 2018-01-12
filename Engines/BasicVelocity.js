@@ -1,5 +1,13 @@
-// Made by Alan O'Cull; AKA Masteralan or MasterAlan2001
-// Basic phyusics engine. Will probably re-write later on to be convex and more realistic.
+/*
+Made by Alan O'Cull -- Also known as Masteralan or @MasterAlan2001 on Twitter
+My website: http://home.codefromjames.com/alan/
+
+Basic phyusics engine. Will probably re-write later on to be convex and more realistic.
+
+2D Tea - Basic game engine used for easy development of 2D games in JavaScript.
+Copyright(C) 2018, Alan O'Cull
+*/
+
 
 // Value Setup
 var width = window.innerWidth;
